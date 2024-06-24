@@ -1,0 +1,21 @@
+{
+    "description": "Информация о добавленном треке",
+    "content": {
+        "application/json": {
+            "example":
+                    {
+                        "data": [
+                        {
+                            "id": 1,
+                            "user_id": "string",
+                            "currentSpeed": 0,
+                            "xCoord": 0,
+                            "yCoord": 0,
+                            "track_id": 0
+                        }
+                        ],
+                        "count": null
+                    }
+                }
+            }
+        }

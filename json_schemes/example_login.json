@@ -1,0 +1,115 @@
+{
+    "description": "Вход в профиль",
+    "content": {
+        "application/json": {
+            "example": 
+                    {
+                    "user": {
+                        "id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                        "app_metadata": {
+                        "provider": "email",
+                        "providers": [
+                            "email"
+                        ]
+                        },
+                        "user_metadata": {
+                        "email": "dima2@mail.ru",
+                        "email_verified": false,
+                        "phone_verified": false,
+                        "sub": "2dda1ab2-20e2-4ee3-94cb-f39660635230"
+                        },
+                        "aud": "authenticated",
+                        "confirmation_sent_at": null,
+                        "recovery_sent_at": null,
+                        "email_change_sent_at": null,
+                        "new_email": null,
+                        "invited_at": null,
+                        "action_link": null,
+                        "email": "dima2@mail.ru",
+                        "phone": "",
+                        "created_at": "2024-06-14T09:09:25.266303Z",
+                        "confirmed_at": "2024-06-14T09:09:25.31701Z",
+                        "email_confirmed_at": "2024-06-14T09:09:25.31701Z",
+                        "phone_confirmed_at": null,
+                        "last_sign_in_at": "2024-06-19T19:37:44.041027Z",
+                        "role": "authenticated",
+                        "updated_at": "2024-06-19T19:37:44.046659Z",
+                        "identities": [
+                        {
+                            "id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                            "user_id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                            "identity_data": {
+                            "email": "dima2@mail.ru",
+                            "email_verified": false,
+                            "phone_verified": false,
+                            "sub": "2dda1ab2-20e2-4ee3-94cb-f39660635230"
+                            },
+                            "provider": "email",
+                            "created_at": "2024-06-14T09:09:25.297176Z",
+                            "last_sign_in_at": "2024-06-14T09:09:25.297116Z",
+                            "updated_at": "2024-06-14T09:09:25.297176Z"
+                        }
+                        ],
+                        "factors": null
+                    },
+                    "session": {
+                        "provider_token": null,
+                        "provider_refresh_token": null,
+                        "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IlpaZFUyOGRNTzY2NFFMalYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzE4ODI5NDY0LCJpYXQiOjE3MTg4MjU4NjQsImlzcyI6Imh0dHBzOi8vc2VoamV2anNydnplYmhjc3VmeW0uc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6IjJkZGExYWIyLTIwZTItNGVlMy05NGNiLWYzOTY2MDYzNTIzMCIsImVtYWlsIjoiZGltYTJAbWFpbC5ydSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWwiOiJkaW1hMkBtYWlsLnJ1IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6IjJkZGExYWIyLTIwZTItNGVlMy05NGNiLWYzOTY2MDYzNTIzMCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzE4ODI1ODY0fV0sInNlc3Npb25faWQiOiI2NTNiYjYxOS00YTJlLTRkNjUtOWIyNC0wN2VmZTlmZWIzNGIiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.Zz9X4HbHEzubSn2iliai4RTasSDCI1rZt8oPzbqeAYg",
+                        "refresh_token": "vH1x3LVpu5w6qAndId7xYQ",
+                        "expires_in": 3600,
+                        "expires_at": 1718829464,
+                        "token_type": "bearer",
+                        "user": {
+                        "id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                        "app_metadata": {
+                            "provider": "email",
+                            "providers": [
+                            "email"
+                            ]
+                        },
+                        "user_metadata": {
+                            "email": "dima2@mail.ru",
+                            "email_verified": false,
+                            "phone_verified": false,
+                            "sub": "2dda1ab2-20e2-4ee3-94cb-f39660635230"
+                        },
+                        "aud": "authenticated",
+                        "confirmation_sent_at": null,
+                        "recovery_sent_at": null,
+                        "email_change_sent_at": null,
+                        "new_email": null,
+                        "invited_at": null,
+                        "action_link": null,
+                        "email": "dima2@mail.ru",
+                        "phone": "",
+                        "created_at": "2024-06-14T09:09:25.266303Z",
+                        "confirmed_at": "2024-06-14T09:09:25.31701Z",
+                        "email_confirmed_at": "2024-06-14T09:09:25.31701Z",
+                        "phone_confirmed_at": null,
+                        "last_sign_in_at": "2024-06-19T19:37:44.041027Z",
+                        "role": "authenticated",
+                        "updated_at": "2024-06-19T19:37:44.046659Z",
+                        "identities": [
+                            {
+                            "id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                            "user_id": "2dda1ab2-20e2-4ee3-94cb-f39660635230",
+                            "identity_data": {
+                                "email": "dima2@mail.ru",
+                                "email_verified": false,
+                                "phone_verified": false,
+                                "sub": "2dda1ab2-20e2-4ee3-94cb-f39660635230"
+                            },
+                            "provider": "email",
+                            "created_at": "2024-06-14T09:09:25.297176Z",
+                            "last_sign_in_at": "2024-06-14T09:09:25.297116Z",
+                            "updated_at": "2024-06-14T09:09:25.297176Z"
+                            }
+                        ],
+                        "factors": null
+                        }
+                    }
+                    }
+        }
+    }
+}

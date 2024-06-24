@@ -1,0 +1,22 @@
+{
+    "description": "Информация о подходящих зонах",
+    "content": {
+        "application/json": {
+            "example":
+                    {
+                        "data": [
+                        {
+                            "id": 0,
+                            "typeZone": "something",
+                            "distance": 0,
+                            "x_p": 0,
+                            "x_m": 0,
+                            "y_p": 0,
+                            "y_m": 0
+                        }
+                        ],
+                        "count": null
+                    }
+                }
+            }
+        }

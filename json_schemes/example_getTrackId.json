@@ -1,0 +1,17 @@
+{
+    "description": "Получение id трека поездки",
+    "content": {
+        "application/json": {
+            "example":
+                    {
+                        "data": [
+                        {
+                            "user_id": "something",
+                            "track_id": 0
+                        }
+                        ],
+                        "count": null
+                    }
+                }
+            }
+        }
